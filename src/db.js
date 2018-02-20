@@ -30,6 +30,8 @@ if (process.env.OPENSHIFT_MONGODB_DB_PASSWORD) {
     process.env.OPENSHIFT_APP_NAME;
 }
 
+console.log ("port: " + PORT + " -- ip: " + DB_IP_NETWORK + " -- link: " + connection_string);
+
 var database;
 var myCollectionHouses;
 
@@ -69,7 +71,7 @@ function try_to_connect (err, db) {
 
         housesCollection = database.collection('Houses');
         userCollection = database.collection('Users');
-        
+
         console.log("Connected to Mongo with successed !");
     }
 }
