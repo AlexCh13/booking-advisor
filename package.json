@@ -2,7 +2,7 @@
   "name": "nodejs-ex",
   "version": "0.0.1",
   "description": "Bachelor Degree - Server Mobile App",
-  "main": "server.js",
+  "main": "src/app.js",
   "dependencies": {
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",

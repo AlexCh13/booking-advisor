@@ -1,0 +1,10 @@
+url = mongodb://
+
+userMongo = UserBA
+passwordMongo = licenta2018user
+serverMongo = localhost
+portMongo = 27017
+dbMongo = BookingAdvisor
+
+port = 8080
+addressIP = 192.168.0.148
