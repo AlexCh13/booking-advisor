@@ -1,7 +1,7 @@
 {
   "name": "nodejs-ex",
   "version": "0.0.1",
-  "description": "Node.js sample app for OpenShift 3",
+  "description": "Bachelor Degree - Server Mobile App",
   "main": "server.js",
   "dependencies": {
     "chai": "^3.5.0",
@@ -9,9 +9,18 @@
     "ejs": "^2.4.1",
     "express": "^4.13.4",
     "mocha": "^2.4.5",
-    "mongodb": "^2.1.16",
     "morgan": "^1.7.0",
-    "object-assign":"4.1.0"
+    "object-assign":"4.1.0",
+    "avsc": "4.1.11",
+    "bcrypt": "1.0.3",
+    "body-parser": "1.15.2",
+    "cors": "2.8.1",
+    "express": "4.14.0",
+    "http": "0.0.0",
+    "module": "^1.2.5",
+    "mongodb": "^2.2.16",
+    "morgan-body": "0.9.5",
+    "properties-reader": "0.0.15"
   },
   "engine": {
     "node": "*",
