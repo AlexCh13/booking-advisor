@@ -1,5 +1,5 @@
 var PropertiesReader = require('properties-reader');
-var properties = PropertiesReader('../properties_server.txt');
+var properties = PropertiesReader('./properties_server.txt');
 
 const PORT = properties.get('port');
 
