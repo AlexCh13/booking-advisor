@@ -7,4 +7,4 @@ portMongo = 27017
 dbMongo = BookingAdvisor
 
 port = 8080
-addressIP = 192.168.0.148
+addressIP = localhost
