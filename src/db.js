@@ -17,8 +17,8 @@ var bodyParser = require('body-parser');
 var mb = require('morgan-body');
 
 
-const DB_IP_NETWORK = process.env.OPENSHIFT_NODEJS_IP   //properties.get('addressIP'); - 127.0.0.1
-const PORT = process.env.OPENSHIFT_NODEJS_PORT          //properties.get('port');      - 8080
+const DB_IP_NETWORK = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1';   //properties.get('addressIP'); - 127.0.0.1
+const PORT = process.env.OPENSHIFT_NODEJS_PORT || 3000;          //properties.get('port');      - 8080
 
 var connection_string = '127.0.0.1:27017/bookingadvisor';
 
